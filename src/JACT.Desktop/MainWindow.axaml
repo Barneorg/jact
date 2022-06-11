@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:components="clr-namespace:JACT.Desktop.Components"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="JACT.Desktop.MainWindow"
+        Title="JACT.Desktop">
+    <StackPanel Orientation="Horizontal">
+        <Panel>
+            <Label>Left Folder</Label>
+            <components:FilePicker></components:FilePicker>
+        </Panel>
+        <Panel>
+            <Button VerticalAlignment="Top">Start Copy</Button>
+        </Panel>
+        <Panel>
+            <Label>Right Folder</Label>
+        </Panel>
+    </StackPanel>
+</Window>
