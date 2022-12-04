@@ -5,17 +5,40 @@
         xmlns:components="clr-namespace:JACT.Desktop.Components"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="JACT.Desktop.MainWindow"
+        x:Name="HomeWindow"
         Title="JACT.Desktop">
-    <StackPanel Orientation="Horizontal">
-        <Panel>
-            <Label>Left Folder</Label>
-            <components:FilePicker></components:FilePicker>
-        </Panel>
-        <Panel>
-            <Button VerticalAlignment="Top">Start Copy</Button>
-        </Panel>
-        <Panel>
-            <Label>Right Folder</Label>
-        </Panel>
+    <StackPanel>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Header="Settings"/>
+                    <Separator/>
+                    <MenuItem Header="_Exit"/>
+                </MenuItem>
+                <MenuItem Header="_Edit">
+                    <MenuItem Header="Copy"/>
+                    <MenuItem Header="Paste"/>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <Grid ColumnDefinitions="*,100,*" RowDefinitions="Auto"  Margin="4">
+            <Panel Grid.Row="0" Grid.Column="0">
+                <StackPanel>
+                    <Label HorizontalAlignment="Center">Left Folder</Label>
+                    <components:FilePicker HorizontalAlignment="Center"></components:FilePicker>
+                </StackPanel>
+            </Panel>
+            <Panel Grid.Row="0" Grid.Column="1" Margin="5, 0">
+                <Button>Start Copy</Button>
+            </Panel>
+            <Panel Grid.Row="0" Grid.Column="2">
+                <StackPanel>
+                    <Label HorizontalAlignment="Center">Right Folder</Label>
+                    <components:FilePicker HorizontalAlignment="Center"></components:FilePicker>
+                </StackPanel>
+            </Panel>
+        </Grid>
+        <DockPanel Dock="Bottom">
+        </DockPanel>
     </StackPanel>
 </Window>

@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JACT.Desktop", "JACT.Desktop\JACT.Desktop.csproj", "{681C3B66-B06B-486C-BF84-8674308EC075}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JACT.WinForms", "JACT.WinForms\JACT.WinForms.csproj", "{3A38C231-18C6-451B-B086-5812E380F982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JACT.FastCopier", "JACT.FastCopier\JACT.FastCopier.csproj", "{8D9CDBD6-775B-4175-AA93-E3DF286C524B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{681C3B66-B06B-486C-BF84-8674308EC075}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{681C3B66-B06B-486C-BF84-8674308EC075}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{681C3B66-B06B-486C-BF84-8674308EC075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A38C231-18C6-451B-B086-5812E380F982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A38C231-18C6-451B-B086-5812E380F982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A38C231-18C6-451B-B086-5812E380F982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A38C231-18C6-451B-B086-5812E380F982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9CDBD6-775B-4175-AA93-E3DF286C524B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9CDBD6-775B-4175-AA93-E3DF286C524B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9CDBD6-775B-4175-AA93-E3DF286C524B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9CDBD6-775B-4175-AA93-E3DF286C524B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

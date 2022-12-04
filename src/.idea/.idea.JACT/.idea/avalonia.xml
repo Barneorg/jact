@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="JACT.Desktop/App.axaml" value="JACT.Desktop/JACT.Desktop.csproj" />
         <entry key="JACT.Desktop/Components/FilePicker.axaml" value="JACT.Desktop/JACT.Desktop.csproj" />
         <entry key="JACT.Desktop/MainWindow.axaml" value="JACT.Desktop/JACT.Desktop.csproj" />
       </map>
